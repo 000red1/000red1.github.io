@@ -1,0 +1,96 @@
+html {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+/*
+.tab {
+  position:absolute;
+  left:45px;
+}
+*/
+
+
+
+.tab {
+  //text-indent:50px;
+  left:50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.fitimage {
+  object-fit:cover;
+}
+
+body {
+  font: 15px/1.1 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+
+  //background: #007bff;
+  //background: linear-gradient(to right, #0062E6, #33AEFF);
+
+  //background: linear-gradient(left top, #002A5C, #008BB0);
+  background: linear-gradient(to right, #002A5C, #008BB0);
+
+  //min-height: 56px;
+  //position: relative;
+/*
+  .list-group-item a {
+    color: #0BB5FF;
+    
+  }
+*/
+  .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .table {
+    th {
+      color: white;
+    }
+    tr {
+      color: white;
+    }
+
+  }
+}
+
+/* Fallback for Edge
+  -------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+  .form-label-group>label {
+    display: none;
+  }
+
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+  -------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .form-label-group>label {
+    display: none;
+  }
+
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
