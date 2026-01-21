@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Custom animations */
+@keyframes chevronPulse {
+  0%,
+  100% {
+    opacity: 0.3;
+    color: #5eead4; /* teal-300 */
+  }
+  50% {
+    opacity: 1;
+    color: #14b8a6; /* teal-500 */
+  }
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.typing-cursor {
+  animation: blink 1s step-end infinite;
+}
