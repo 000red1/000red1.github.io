@@ -1,7 +1,9 @@
 import { useState, useRef } from "react";
 import { HiOutlineLockClosed, HiOutlinePlay, HiOutlinePause } from "react-icons/hi2";
 
-const WORKER_URL = "https://black-base-55b4.john2-0zero.workers.dev/unlock";
+// Obfuscated endpoint
+const _e = "aHR0cHM6Ly9ibGFjay1iYXNlLTU1YjQuam9objItMHplcm8ud29ya2Vycy5kZXYvdW5sb2Nr";
+const getEndpoint = () => atob(_e);
 
 export default function Secret() {
   const [password, setPassword] = useState("");
@@ -21,7 +23,7 @@ export default function Secret() {
     setError("");
 
     try {
-      const res = await fetch(WORKER_URL, {
+      const res = await fetch(getEndpoint(), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ password }),
