@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { HiOutlineLockClosed, HiOutlineArrowDownTray } from "react-icons/hi2";
 
-const WORKER_URL = "https://black-base-55b4.john2-0zero.workers.dev";
+const WORKER_URL = "https://black-base-55b4.john2-0zero.workers.dev/unlock";
 const FILENAME = "letter.wav";
 
 export default function Secret() {
