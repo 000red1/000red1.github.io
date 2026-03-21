@@ -280,18 +280,6 @@ function Contact() {
 
         <div className="space-y-6">
           <div className="flex items-center gap-4">
-            <span className="w-12 h-12 rounded-full bg-slate-200 flex items-center justify-center text-slate-600">
-              📧
-            </span>
-            <a
-              href="mailto:derick.amalraj@gmail.com"
-              className="text-teal-700 hover:text-teal-900 text-lg"
-            >
-              derick.amalraj@gmail.com
-            </a>
-          </div>
-
-          <div className="flex items-center gap-4">
             <a
               href="https://linkedin.com/in/derick-amal/"
               target="_blank"
@@ -317,12 +305,11 @@ function Contact() {
               professional development, interesting experiences, and personal
               growth.
             </p>
-            <a
-              href="mailto:derick.amalraj@gmail.com"
-              className="inline-block px-8 py-3 bg-gradient-to-r from-teal-500 to-slate-600 text-white rounded-lg hover:from-teal-600 hover:to-slate-700 transition-all font-medium"
+            <span
+              className="inline-block px-8 py-3 bg-gradient-to-r from-teal-500 to-slate-600 text-white rounded-lg font-medium"
             >
               Get In Touch
-            </a>
+            </span>
           </div>
         </div>
       </div>
