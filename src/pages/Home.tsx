@@ -138,7 +138,7 @@ function About() {
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             I have worked on technologies like Python, C/C++, Jenkins, Docker,
-            Kubernetes, and various cloud platforms. With 2+ years of
+            Kubernetes, and various cloud platforms. With 4+ years of
             professional work experience, I have strengthened my expertise in
             CI/CD infrastructure, performance optimization, and embedded systems
             testing.

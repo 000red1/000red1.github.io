@@ -11,7 +11,7 @@ export const experiences: ExperienceEntry[] = [
   {
     title: "Senior Software Development Engineer",
     company: "Advanced Micro Devices (AMD)",
-    period: "June 2026 - Present",
+    period: "July 2026 - Present",
     description:
       "Architecting next-generation CI/CD solutions for enterprise GPU platforms. Leading cross-functional initiatives to scale infrastructure supporting AMD's Data Center product lines, driving technical strategy for pipeline reliability and developer productivity.",
     color: "teal",
