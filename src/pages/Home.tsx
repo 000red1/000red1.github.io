@@ -131,10 +131,10 @@ function About() {
         <div className="space-y-6">
           {/* Bio */}
           <p className="text-gray-700 text-lg leading-relaxed">
-            I am a Software Engineer at AMD and a Computer Science Grad Student
-            pursuing a Master's in Computational Mathematics at the University
-            of Washington. I enjoy problem-solving and coding, always striving
-            to bring 100% to the work I do.
+            I am a Senior Software Development Engineer at AMD with a Master's
+            in Applied and Computational Mathematics from the University of
+            Washington. I enjoy problem-solving and coding, always striving to
+            bring 100% to the work I do.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             I have worked on technologies like Python, C/C++, Jenkins, Docker,
