@@ -118,7 +118,7 @@ export default function Layout() {
 
           {/* Resume Link */}
           <a
-            href="/resume.pdf"
+            href="/resume_devops.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full flex items-center gap-3 px-6 py-3 text-left text-slate-600 hover:bg-slate-50 hover:text-teal-600 border-l-3 border-transparent transition-all duration-200"
@@ -222,7 +222,7 @@ export default function Layout() {
 
           {/* Resume Link */}
           <a
-            href="/resume.pdf"
+            href="/resume_devops.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full flex items-center gap-3 px-6 py-3 text-left text-slate-600 hover:bg-slate-50 hover:text-teal-600 border-l-3 border-transparent transition-all duration-200"
